@@ -1,7 +1,5 @@
     #include <stdio.h>
-
-
-
+    
     int isArithmeticalSequence(int n)
     {
         int digits[4] = {0, }, idx = 0;
@@ -32,4 +30,5 @@
             if(isArithmeticalSequence(i)) sum++;
         }
         printf("%d",sum);
+        return 0;
     }
