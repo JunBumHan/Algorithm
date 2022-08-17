@@ -22,7 +22,7 @@ int binSearch(int *arr, int key, int size) // key 값이 있으면 1 : 없으면
 
     do {
 
-        mid = (start + end) / 2; // overflow 방지 
+        mid = (start + end) / 2;  
         // printf("start : %d | mid : %d | end : %d\n",start, mid, end);
 
         if(arr[mid] == key) 
